@@ -28,7 +28,6 @@ while confirmed_end < 81:
                         squares[i,j][number] = 1
         
         #removes numbers repeated in mini grid#
-        #REDO IT ALL YOU WHORE#
         grid_ranges = [(0,1,2),(3,4,5),(6,7,8)]
         for i_value in grid_ranges:
             for i in i_value:
@@ -44,7 +43,6 @@ while confirmed_end < 81:
                                             squares[i,j][number] = 1
     
         #removing squares that can only be that square#
-        #AND THIS ONE TOO, SLAG#
         for index_place in range(9):
             counter = 0
             for i in grid_ranges[2]:
